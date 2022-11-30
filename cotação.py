@@ -53,7 +53,7 @@ def cotacao():
 window = Tk() # Início
 window['padx'] = 70
 window['pady'] = 20
-window.title("Valores Criptomoedas - eduardofabricio.")
+window.title("Valores Criptomoedas - muriloheyde.")
 
 	# Criação Texto do Cabeçalho
 h1_text = ttk.Label(window, text="Valor da cotação das Moedas:")
