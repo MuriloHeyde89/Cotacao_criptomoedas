@@ -1,6 +1,6 @@
 # Cotacao_criptomoedas
 
-Criação de uma aplicação em Python que busca valores autuais de criptomoedas. As moedas sendo verificadas são Ethereum, Bitcoin, Dogecoin e Dolar.
+Criação de uma aplicação em Python que busca valores autuais de criptomoedas. As moedas sendo verificadas são Bitcoin, Ethereum, Solana.
 
 
 ## Lista de Tarefas
@@ -19,9 +19,9 @@ Criação de uma aplicação em Python que busca valores autuais de criptomoedas
 ## Ferramentas usadas no Projeto
 
 [x] GitHub
-[x] Bela Sopa4_
-[x] Tkinter
-[x] Kivy
+[x] 
+[x] 
+[x] 
 [x] VsCode
 [x] Python
 
