@@ -15,13 +15,16 @@ Criação de uma aplicação em Python que busca valores autuais de criptomoedas
 
 [x] Repassar os dados consultados
 
+## Instalar Bibliotecas Binance
+[x] pip install binance-connector
+[x] pip install websocket-client
+[x] pip install numpy
 
 ## Ferramentas usadas no Projeto
 
 [x] GitHub
-[x] 
-[x] 
-[x] 
+[x] Tkinter
+[x] API Binance
 [x] VsCode
 [x] Python
 
