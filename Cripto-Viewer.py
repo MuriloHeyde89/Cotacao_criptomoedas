@@ -1,7 +1,7 @@
 from tkinter import *
 from tkinter import Tk
 
-# LOGIN CHECK
+# VERIFICAR LOGIN
 
 def entrar():
     email = txtboxemail_log.get()
@@ -13,22 +13,22 @@ def entrar():
 
     else:
 
-        if email == "crypto_viewer_user" and senha == "senhacv123":
+        if email == "adm" and senha == "senhaadm":
 
-            # MAIN FRAME
+            # ESTRUTURA PRINCIPAL
 
             root.destroy()
             main = Tk()
             main.configure(background='#111111')
-            main.title("Crypto Viewer")
+            main.title("Cotação Cripto")
             main.attributes('-fullscreen', True)
 
-            # HEADER
+            # CABEÇALHO
 
             headerFrame = Frame(main, background='#111111')
             headerFrame.place(relwidth=1, relheight=0.2)
 
-            logo = Label(headerFrame, text="Crypto Viewer", background='#111111', font="Segoe 30 bold", fg="white")
+            logo = Label(headerFrame, text="Cotação Cripto", background='#111111', font="Segoe 30 bold", fg="white")
             logo.place(relwidth=1, relheight=1)
 
             def exit():
@@ -37,7 +37,7 @@ def entrar():
             exit_bttn = Button(headerFrame, text="X", border="0", bg='#FF0000', fg="white", font="Segoe 20 bold", cursor="hand2", command=exit)
             exit_bttn.place(relwidth=0.03, relheight=0.25, relx=0.97)
 
-            # SELECT CRYPTO
+            # SELECIONAR CRIPTO
 
             MainFrame = Frame(main, background='#111111')
             MainFrame.place(relwidth=1, relheight=0.6, rely=0.2)
@@ -46,15 +46,15 @@ def entrar():
                 
                 sol = Tk()
                 sol.configure(background='#111111')
-                sol.title("Crypto Viewer")
+                sol.title("Cotação Cripto")
                 sol.attributes('-fullscreen', True)
 
-                # HEADER
+                # CABEÇALHO
 
                 headerFrame = Frame(sol, background='#111111')
                 headerFrame.place(relwidth=1, relheight=0.2)
 
-                logo = Label(headerFrame, text="Crypto Viewer", background='#111111', font="Segoe 30 bold", fg="white")
+                logo = Label(headerFrame, text="Cotação Cripto", background='#111111', font="Segoe 30 bold", fg="white")
                 logo.place(relwidth=1, relheight=1)
 
                 def exit():
@@ -65,7 +65,7 @@ def entrar():
                 exit_bttn = Button(headerFrame, text="X", border="0", bg='#FF0000', fg="white", font="Segoe 20 bold", cursor="hand2", command=exit)
                 exit_bttn.place(relwidth=0.03, relheight=0.25, relx=0.97)
 
-                # INFO SOL
+                # INFORMAÇÕES SOL
 
                 sol_frame = Frame(sol, background='#111111')
                 sol_frame.place(relwidth=1, relheight=0.6, rely=0.2)
@@ -100,7 +100,7 @@ def entrar():
                 sol_back = Button(sol_frame, text="Voltar", border="0", bg='black', fg="white", font="Segoe 30 bold", cursor="hand2", command=back_sol)
                 sol_back.place(relwidth=0.1, relheight=0.08, relx=0.45, rely=0.6)
 
-                # RUN WS
+                # EXECUTAR WS
 
                 def connect_to_socket():
 
@@ -113,7 +113,7 @@ def entrar():
 
                 on_connect()
 
-                # RUN SOL
+                # EXECUTAR SOL
 
                 sol.mainloop()
 
@@ -122,15 +122,15 @@ def entrar():
                 
                 btc = Tk()
                 btc.configure(background='#111111')
-                btc.title("Crypto Viewer")
+                btc.title("Cotação Cripto")
                 btc.attributes('-fullscreen', True)
 
-                # HEADER
+                # CABEÇALHO
 
                 headerFrame = Frame(btc, background='#111111')
                 headerFrame.place(relwidth=1, relheight=0.2)
 
-                logo = Label(headerFrame, text="Crypto Viewer", background='#111111', font="Segoe 30 bold", fg="white")
+                logo = Label(headerFrame, text="Cotação Cripto", background='#111111', font="Segoe 30 bold", fg="white")
                 logo.place(relwidth=1, relheight=1)
 
                 def exit():
@@ -141,7 +141,7 @@ def entrar():
                 exit_bttn = Button(headerFrame, text="X", border="0", bg='#FF0000', fg="white", font="Segoe 20 bold", cursor="hand2", command=exit)
                 exit_bttn.place(relwidth=0.03, relheight=0.25, relx=0.97)
 
-                # INFO BTC
+                # INFORMAÇÕES BTC
 
                 btc_frame = Frame(btc, background='#111111')
                 btc_frame.place(relwidth=1, relheight=0.6, rely=0.2)
@@ -176,7 +176,7 @@ def entrar():
                 btc_back = Button(btc_frame, text="Voltar", border="0", bg='black', fg="white", font="Segoe 30 bold", cursor="hand2", command=back_btc)
                 btc_back.place(relwidth=0.1, relheight=0.08, relx=0.45, rely=0.6)
 
-                # RUN WS
+                # EXECUTAR WS
 
                 def connect_to_socket():
 
@@ -189,7 +189,7 @@ def entrar():
 
                 on_connect()
 
-                # RUN BTC
+                # EXECUTAR BTC
 
                 btc.mainloop()
 
@@ -197,15 +197,15 @@ def entrar():
             def eth_page():
                 eth = Tk()
                 eth.configure(background='#111111')
-                eth.title("Crypto Viewer")
+                eth.title("Cotação Cripto")
                 eth.attributes('-fullscreen', True)
 
-                # HEADER
+                # CABEÇALHO
 
                 headerFrame = Frame(eth, background='#111111')
                 headerFrame.place(relwidth=1, relheight=0.2)
 
-                logo = Label(headerFrame, text="Crypto Viewer", background='#111111', font="Segoe 30 bold", fg="white")
+                logo = Label(headerFrame, text="Cotação Cripto", background='#111111', font="Segoe 30 bold", fg="white")
                 logo.place(relwidth=1, relheight=1)
 
                 def exit():
@@ -216,7 +216,7 @@ def entrar():
                 exit_bttn = Button(headerFrame, text="X", border="0", bg='#FF0000', fg="white", font="Segoe 20 bold", cursor="hand2", command=exit)
                 exit_bttn.place(relwidth=0.03, relheight=0.25, relx=0.97)
 
-                # INFO ETH
+                # INFORMAÇÕES ETH
 
                 eth_frame = Frame(eth, background='#111111')
                 eth_frame.place(relwidth=1, relheight=0.6, rely=0.2)
@@ -251,7 +251,7 @@ def entrar():
                 eth_back = Button(eth_frame, text="Voltar", border="0", bg='black', fg="white", font="Segoe 30 bold", cursor="hand2", command=back_eth)
                 eth_back.place(relwidth=0.1, relheight=0.08, relx=0.45, rely=0.6)
 
-                # RUN WS
+                # EXECUTAR WS
 
                 def connect_to_socket():
 
@@ -264,7 +264,7 @@ def entrar():
 
                 on_connect()
 
-                # RUN ETH
+                # EXECUTAR ETH
 
                 eth.mainloop()
 
@@ -277,7 +277,7 @@ def entrar():
             sol_bttn = Button(MainFrame, text="SOL", border="1", bg='#FFFFFF', fg="black", font="Segoe 30 bold", cursor="hand2", command=sol_page)
             sol_bttn.place(relwidth=0.1, relheight=0.08, relx=0.45, rely=0.7)
 
-            # RUN MAIN
+            # EXECUTAR PRINCIPAL
 
             main.mainloop()
 
@@ -285,34 +285,34 @@ def entrar():
             erro_invalidade = Label(LoginFrame, text="Usuário ou senha inválidos. Tente novamente.", background='#111111', font="Segoe 20", fg="red")
             erro_invalidade.place(relwidth=1, relx=0.5, rely=0.65, anchor=CENTER)
 
-    # DEF EXIT
+    # DEF SAÍDA
 
     def exit():
         root.destroy()
 
-# INFO PAGE
+# PAGINA DE INFORMAÇÕES
 
 def info():
 
-    txt_info_1 = "Crypto Viewer é um projeto Python desenvilvido para a visualização em tempo real do valor de criptomoedas."
-    txt_info_2 = "Desenvolvido por Henrique Soriano, estudante de Análise e desenvolvimento de Sistemas - Etec Polivalente Americana"
-    txt_info_3 = "email: sorianol.henrique@gmail.com"
-    txt_info_4 = "LinkedIn: linkedin.com/in/henrique-soriano-b6b623226"
+    txt_info_1 = "Cotação Cripto é um projeto Python desenvolvido para a visualização em tempo real do valor de criptomoedas."
+    txt_info_2 = "Desenvolvido por Murilo Heyde"
+    txt_info_3 = "email: "
+    txt_info_4 = "LinkedIn: "
 
-    # INFO FRAME
+    # QUADRO DE INFORMAÇÕES
 
     root.destroy()
     info = Tk()
     info.configure(background='#111111')
-    info.title("Crypto Viewer")
+    info.title("Cotação Cripto")
     info.attributes('-fullscreen', True)
 
-    # HEADER
+    # CABEÇALHO
 
     headerFrame = Frame(info, background='#111111')
     headerFrame.place(relwidth=1, relheight=0.2)
 
-    logo = Label(headerFrame, text="Crypto Viewer", background='#111111', font="Segoe 30 bold", fg="white")
+    logo = Label(headerFrame, text="Cotação Cripto", background='#111111', font="Segoe 30 bold", fg="white")
     logo.place(relwidth=1, relheight=1)
 
     def exit():
@@ -321,7 +321,7 @@ def info():
     exit_bttn = Button(headerFrame, text="X", border="0", bg='#FF0000', fg="white", font="Segoe 20 bold", cursor="hand2", command=exit)
     exit_bttn.place(relwidth=0.03, relheight=0.25, relx=0.97)
 
-    # INFO
+    # INFORMAÇÕES
 
     info_frame = Frame(info, background='#111111')
     info_frame.place(relwidth=1, relheight=0.6, rely=0.2)
@@ -338,19 +338,19 @@ def info():
     lb_loading_eth = Label(info_frame, text=txt_info_4, border="0", bg='#111111', fg="white", font="Segoe 15 bold")
     lb_loading_eth.place(relwidth=1, relheight=0.1, rely=0.6)
 
-# MAIN INITIAL FRAME
+# QUADRO INICIAL PRINCIPAL
 
 root = Tk()
 root.configure(background='#111111')
-root.title("Crypto Viewer")
+root.title("Cotação Cripto")
 root.attributes('-fullscreen', True)
 
-# HEADER
+# CABEÇALHO
 
 headerFrame = Frame(root, background='#111111')
 headerFrame.place(relwidth=1, relheight=0.2)
 
-logo = Label(headerFrame, text="Crypto Viewer", background='#111111', font="Segoe 30 bold", fg="white")
+logo = Label(headerFrame, text="Cotação Cripto", background='#111111', font="Segoe 30 bold", fg="white")
 logo.place(relwidth=1, relheight=1)
 
 def exit():
@@ -359,7 +359,7 @@ def exit():
 exit_bttn = Button(headerFrame, text="X", border="0", bg='#FF0000', fg="white", font="Segoe 20 bold", cursor="hand2", command=exit)
 exit_bttn.place(relwidth=0.03, relheight=0.25, relx=0.97)
 
-# LOGIN
+# CONECTE-SE
 
 LoginFrame = Frame(root, background='#111111')
 LoginFrame.place(relwidth=1, relheight=0.6, rely=0.2)
@@ -388,6 +388,6 @@ login_bttn.place(relwidth=0.1, relheight=0.085, relx=0.45, rely=0.75)
 login_bttn = Button(LoginFrame, text="?", border="0", bg='white', fg="black", font="Segoe 16 bold", cursor="hand2", command=info)
 login_bttn.place(relwidth=0.02, relheight=0.06, relx=0.8, rely=0.9)
 
-# RUN ROOT
+# EXECUTAR ROOT
 
 root.mainloop()
