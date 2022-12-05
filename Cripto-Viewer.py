@@ -341,7 +341,7 @@ def info():
 # QUADRO INICIAL PRINCIPAL
 
 root = Tk()
-root.configure(background='#111111')
+root.configure(background='#27db36')
 root.title("Cotação Cripto")
 root.attributes('-fullscreen', True)
 
@@ -350,7 +350,7 @@ root.attributes('-fullscreen', True)
 headerFrame = Frame(root, background='#111111')
 headerFrame.place(relwidth=1, relheight=0.2)
 
-logo = Label(headerFrame, text="Cotação Cripto", background='#111111', font="Segoe 30 bold", fg="white")
+logo = Label(headerFrame, text="Cotação Cripto", background='#27db36', font="Segoe 30 bold", fg="white")
 logo.place(relwidth=1, relheight=1)
 
 def exit():
@@ -361,28 +361,28 @@ exit_bttn.place(relwidth=0.03, relheight=0.25, relx=0.97)
 
 # CONECTE-SE
 
-LoginFrame = Frame(root, background='#111111')
+LoginFrame = Frame(root, background='#27db36')
 LoginFrame.place(relwidth=1, relheight=0.6, rely=0.2)
 
 
-l_entrar = Label(LoginFrame, text="ENTRAR", background='#111111', font="Segoe 15 bold", fg="white")
+l_entrar = Label(LoginFrame, text="ENTRAR", background='#27db36', font="Segoe 15 bold", fg="white")
 l_entrar.place(relwidth=1, relheight=0.2)
 
 
-l_email = Label(LoginFrame, text="Usuário", background='#111111', font="Segoe 15", fg="white")
+l_email = Label(LoginFrame, text="Usuário", background='#27db36', font="Segoe 15", fg="white")
 l_email.place(relwidth=1, relheight=0.2, rely=0.15)
 
 txtboxemail_log = Entry(LoginFrame, bg="#222222", border=0, fg="white", font="Segoe 15")
 txtboxemail_log.place(relwidth=0.3, relheight=0.05, relx=0.35, rely=0.3)
 
 
-l_pass = Label(LoginFrame, text="Senha", background='#111111', font="Segoe 15", fg="white")
+l_pass = Label(LoginFrame, text="Senha", background='#27db36', font="Segoe 15", fg="white")
 l_pass.place(relwidth=1, relheight=0.2, rely=0.35)
 
 txtboxpass_log = Entry(LoginFrame, bg="#222222", border=0, fg="white", font="Segoe 15", show="*")
 txtboxpass_log.place(relwidth=0.3, relheight=0.05, relx=0.35, rely=0.5)
 
-login_bttn = Button(LoginFrame, text="ENTRAR", border="0", bg='#222222', fg="white", font="Segoe 20 bold", cursor="hand2", command=entrar)
+login_bttn = Button(LoginFrame, text="LOGIN", border="0", bg='#27db36', fg="white", font="Segoe 20 bold", cursor="hand2", command=entrar)
 login_bttn.place(relwidth=0.1, relheight=0.085, relx=0.45, rely=0.75)
 
 login_bttn = Button(LoginFrame, text="?", border="0", bg='white', fg="black", font="Segoe 16 bold", cursor="hand2", command=info)
