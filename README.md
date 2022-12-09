@@ -5,11 +5,11 @@ Criação de uma aplicação em Python que busca valores autuais de criptomoedas
 
 ## Lista de Tarefas
 
-[x] Criar Interface e interligação ao site (xxxx)
+[x] Criar Interface e interligação ao site da Binance (verificação de login, selecionar cripto, solicitar informações ao site da Binance, executar, demonstrar informações)
 
-[x] Iniciar consulta através dos dados de site (xxxx) 
+[x] Iniciar consulta através dos dados de site Binance 
 
-[x] Realizar busca por parametros adicionados com auxílio das informações constantes em banco de dados (site) 
+[x] Realizar busca por parametros adicionados com auxílio das informações constantes em banco de dados (Binance) 
 
 [x] Criar layout do app através do Tkinter
 
@@ -21,7 +21,6 @@ Criação de uma aplicação em Python que busca valores autuais de criptomoedas
 [x] pip install numpy
 
 ## Ferramentas usadas no Projeto
-
 [x] GitHub
 [x] Tkinter
 [x] API Binance
