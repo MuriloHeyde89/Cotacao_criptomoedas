@@ -32,7 +32,16 @@ Criação de uma aplicação em Python que busca valores autuais de criptomoedas
 
 Através da interface Gráfica do Tkinter, será totalmente utilizavel o seu Consultor de criptomoedas, conforme podemos ver abaixo:
 
+[x] Tela Inicial
+![captura inicial cripto](https://user-images.githubusercontent.com/115501310/206710478-1514cb69-2742-46a4-9f0e-7c90d7b07025.JPG)
 
+
+[x] Tela de cotação
+![TELA DE COTAÇÃO](https://user-images.githubusercontent.com/115501310/206710545-be25eb79-009f-441d-b0f8-6a3a13b58d4e.JPG)
+
+
+[x] Tela de informações e dados obtidos
+![REALIZANDO COTAÇÃO](https://user-images.githubusercontent.com/115501310/206710637-6cc8f9fa-8796-4336-ac92-17fee6d333d1.JPG)
 
 
 
